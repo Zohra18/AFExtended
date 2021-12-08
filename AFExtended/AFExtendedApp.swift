@@ -11,7 +11,7 @@ import SwiftUI
 struct AFExtendedApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EnumZipTest()
         }
     }
 }

@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    var link = "https://apple.com"
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("\(link)")
+            Text(.init(link))
+                .padding()
+        }
     }
 }
 

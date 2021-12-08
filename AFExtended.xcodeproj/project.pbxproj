@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C1714C62760C6C100B13878 /* TextListRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1714C52760C6C100B13878 /* TextListRoot.swift */; };
+		3C1714C82760C71800B13878 /* EnumZipTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1714C72760C71800B13878 /* EnumZipTest.swift */; };
 		3CCA4D052754FEB100C29A74 /* AFExtendedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA4D042754FEB100C29A74 /* AFExtendedApp.swift */; };
 		3CCA4D072754FEB100C29A74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA4D062754FEB100C29A74 /* ContentView.swift */; };
 		3CCA4D092754FEB200C29A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CCA4D082754FEB200C29A74 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C1714C52760C6C100B13878 /* TextListRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextListRoot.swift; sourceTree = "<group>"; };
+		3C1714C72760C71800B13878 /* EnumZipTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumZipTest.swift; sourceTree = "<group>"; };
 		3CCA4D012754FEB100C29A74 /* AFExtended.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFExtended.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CCA4D042754FEB100C29A74 /* AFExtendedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFExtendedApp.swift; sourceTree = "<group>"; };
 		3CCA4D062754FEB100C29A74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				3CCA4D042754FEB100C29A74 /* AFExtendedApp.swift */,
 				3CCA4D062754FEB100C29A74 /* ContentView.swift */,
+				3C1714C52760C6C100B13878 /* TextListRoot.swift */,
+				3C1714C72760C71800B13878 /* EnumZipTest.swift */,
 				3CCA4D082754FEB200C29A74 /* Assets.xcassets */,
 				3CCA4D0A2754FEB200C29A74 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1714C82760C71800B13878 /* EnumZipTest.swift in Sources */,
+				3C1714C62760C6C100B13878 /* TextListRoot.swift in Sources */,
 				3CCA4D072754FEB100C29A74 /* ContentView.swift in Sources */,
 				3CCA4D052754FEB100C29A74 /* AFExtendedApp.swift in Sources */,
 			);
