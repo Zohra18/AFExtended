@@ -7,29 +7,22 @@
 
 import SwiftUI
 
-enum CategorySomething: String, CaseIterable {
-    case rock = "Rock"
-    case rap = "Rap"
-    case metal = "Metal"
-    case classic = "Classic"
-}
-
-struct Category: Identifiable {
-    var id = UUID()
-    var name: String
-    var chosenCategory: Bool
-}
-
+//CONTEXTE:
+//Une apprenante cherchait à afficher tous les cases d'un enum dans un ForEach
+//Puis cliquer sur chacun des éléments afin d'activer un Bool pour changer d'état sur une image
+//J'ai du passer par une struct pour palier à ce problème
+//Plusieurs tests on été effectué et tout est laissé en plan
 struct EnumZipTest: View {
     @State private var addedCategory = false
     @State private var myCategory: Category?
+    
     @State private var allCategories = [
         Category(name: "Rock", chosenCategory: false),
         Category(name: "Metal", chosenCategory: false),
         Category(name: "Rap", chosenCategory: false),
         Category(name: "Classic", chosenCategory: false)
-        
     ]
+    
     @State private var catSet: [CategorySomething] = []
     var body: some View {
         VStack {
@@ -65,25 +58,6 @@ struct EnumZipTest: View {
                 CategoryRow(category: $allCategories[index])
             }
             
-        }
-    }
-}
-
-
-struct CategoryRow: View {
-//        @Binding var addCategory: Bool
-    @Binding var category: Category
-//        var category: CategorySomething
-    var body: some View {
-        HStack {
-            Text(category.name)
-            Button(action: {
-//                addCategory.toggle()
-                category.chosenCategory.toggle()
-                
-            }, label: {
-                Image(systemName: category.chosenCategory ? "bolt.fill" : "bolt")
-            })
         }
     }
 }
