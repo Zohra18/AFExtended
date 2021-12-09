@@ -61,6 +61,14 @@
 			path = NavigationBackToRoot;
 			sourceTree = "<group>";
 		};
+		3C1714D327624DD400B13878 /* ZipAndEnumTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C1714C72760C71800B13878 /* EnumZipTest.swift */,
+			);
+			path = ZipAndEnumTests;
+			sourceTree = "<group>";
+		};
 		3CCA4CF82754FEB000C29A74 = {
 			isa = PBXGroup;
 			children = (
@@ -83,7 +91,7 @@
 				3CCA4D042754FEB100C29A74 /* AFExtendedApp.swift */,
 				3C1714CB2762495300B13878 /* Markdown */,
 				3C1714D027624C2500B13878 /* NavigationBackToRoot */,
-				3C1714C72760C71800B13878 /* EnumZipTest.swift */,
+				3C1714D327624DD400B13878 /* ZipAndEnumTests */,
 				3CCA4D082754FEB200C29A74 /* Assets.xcassets */,
 				3CCA4D0A2754FEB200C29A74 /* Preview Content */,
 			);

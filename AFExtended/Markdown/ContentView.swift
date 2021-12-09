@@ -7,8 +7,11 @@
 
 import SwiftUI
 
+//CONTEXTE:
+//Un groupe cherchait à mettre des liens de site dans leur Text
+//Ils ont du faire des recherches sur le Markdown
+//Si dessous est le résultat des recherches et de la mise en place
 struct ContentView: View {
-    
     @State private var informations = [
         MarkdownInfo(id: 0, info: "Notice that if want to add an **url link to a text** I can simply put the link in the String but it isn't active at all, it's pure text.", urlLink: "https://apple.com", image: "xmark.circle.fill", color: .red),
         MarkdownInfo(id: 1, info: "If I want this link to be usable I must use **Markdown** to launch the website when tapped.", urlLink: "https://apple.com", image: "checkmark.circle.fill", color: .green),

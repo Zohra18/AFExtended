@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-//CONTENTE:
+//CONTEXTE:
 //Détourner le bug existant avec le ForEach qui n'arrive pas à faire correspondre
 //les éléments de du tableau avec la View de destination
 //On passe donc par une var global pour la faire correspondre avec l'élément cliquer dans le ForEach
