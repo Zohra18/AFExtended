@@ -14,6 +14,7 @@
 		3C1714D227624C8300B13878 /* TextListChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1714D127624C8300B13878 /* TextListChild.swift */; };
 		3C1714D527624FA700B13878 /* EnumZipModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1714D427624FA700B13878 /* EnumZipModels.swift */; };
 		3C1714DD2762577B00B13878 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1714DC2762577B00B13878 /* CategoryRow.swift */; };
+		3C99001B2763888E00FC68FC /* KahootQuestionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99001A2763888E00FC68FC /* KahootQuestionTest.swift */; };
 		3CCA4D052754FEB100C29A74 /* AFExtendedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA4D042754FEB100C29A74 /* AFExtendedApp.swift */; };
 		3CCA4D072754FEB100C29A74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA4D062754FEB100C29A74 /* ContentView.swift */; };
 		3CCA4D092754FEB200C29A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CCA4D082754FEB200C29A74 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		3C1714D127624C8300B13878 /* TextListChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextListChild.swift; sourceTree = "<group>"; };
 		3C1714D427624FA700B13878 /* EnumZipModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumZipModels.swift; sourceTree = "<group>"; };
 		3C1714DC2762577B00B13878 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		3C99001A2763888E00FC68FC /* KahootQuestionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KahootQuestionTest.swift; sourceTree = "<group>"; };
 		3CCA4D012754FEB100C29A74 /* AFExtended.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFExtended.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CCA4D042754FEB100C29A74 /* AFExtendedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFExtendedApp.swift; sourceTree = "<group>"; };
 		3CCA4D062754FEB100C29A74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,14 @@
 			path = ZipAndEnumTests;
 			sourceTree = "<group>";
 		};
+		3C9900192763871300FC68FC /* KahootTest */ = {
+			isa = PBXGroup;
+			children = (
+				3C99001A2763888E00FC68FC /* KahootQuestionTest.swift */,
+			);
+			path = KahootTest;
+			sourceTree = "<group>";
+		};
 		3CCA4CF82754FEB000C29A74 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +108,7 @@
 				3C1714CB2762495300B13878 /* Markdown */,
 				3C1714D027624C2500B13878 /* NavigationBackToRoot */,
 				3C1714D327624DD400B13878 /* ZipAndEnumTests */,
+				3C9900192763871300FC68FC /* KahootTest */,
 				3CCA4D082754FEB200C29A74 /* Assets.xcassets */,
 				3CCA4D0A2754FEB200C29A74 /* Preview Content */,
 			);
@@ -183,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C1714C82760C71800B13878 /* EnumZipTest.swift in Sources */,
+				3C99001B2763888E00FC68FC /* KahootQuestionTest.swift in Sources */,
 				3C1714C62760C6C100B13878 /* TextListRoot.swift in Sources */,
 				3C1714DD2762577B00B13878 /* CategoryRow.swift in Sources */,
 				3C1714D527624FA700B13878 /* EnumZipModels.swift in Sources */,

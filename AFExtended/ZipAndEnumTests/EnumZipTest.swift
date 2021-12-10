@@ -23,6 +23,7 @@ struct EnumZipTest: View {
         Category(name: "Classic", chosenCategory: false)
     ]
     
+    var myDatas = ["1", "2", "3"]
     @State private var catSet: [CategorySomething] = []
     var body: some View {
         VStack {
@@ -57,7 +58,6 @@ struct EnumZipTest: View {
             ForEach(allCategories.indices) { index in
                 CategoryRow(category: $allCategories[index])
             }
-            
         }
     }
 }
