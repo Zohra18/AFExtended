@@ -14,6 +14,9 @@
 		3C1714D227624C8300B13878 /* TextListChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1714D127624C8300B13878 /* TextListChild.swift */; };
 		3C1714D527624FA700B13878 /* EnumZipModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1714D427624FA700B13878 /* EnumZipModels.swift */; };
 		3C1714DD2762577B00B13878 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1714DC2762577B00B13878 /* CategoryRow.swift */; };
+		3C6FBF5627674DDA008744E2 /* SetCollectionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6FBF5527674DDA008744E2 /* SetCollectionTest.swift */; };
+		3C6FBF5827675649008744E2 /* EnumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6FBF5727675649008744E2 /* EnumViewModel.swift */; };
+		3C6FBF5C27679731008744E2 /* ListModifsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6FBF5B27679731008744E2 /* ListModifsTest.swift */; };
 		3C99001B2763888E00FC68FC /* KahootQuestionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99001A2763888E00FC68FC /* KahootQuestionTest.swift */; };
 		3CCA4D052754FEB100C29A74 /* AFExtendedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA4D042754FEB100C29A74 /* AFExtendedApp.swift */; };
 		3CCA4D072754FEB100C29A74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA4D062754FEB100C29A74 /* ContentView.swift */; };
@@ -29,6 +32,9 @@
 		3C1714D127624C8300B13878 /* TextListChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextListChild.swift; sourceTree = "<group>"; };
 		3C1714D427624FA700B13878 /* EnumZipModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumZipModels.swift; sourceTree = "<group>"; };
 		3C1714DC2762577B00B13878 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		3C6FBF5527674DDA008744E2 /* SetCollectionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCollectionTest.swift; sourceTree = "<group>"; };
+		3C6FBF5727675649008744E2 /* EnumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumViewModel.swift; sourceTree = "<group>"; };
+		3C6FBF5B27679731008744E2 /* ListModifsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModifsTest.swift; sourceTree = "<group>"; };
 		3C99001A2763888E00FC68FC /* KahootQuestionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KahootQuestionTest.swift; sourceTree = "<group>"; };
 		3CCA4D012754FEB100C29A74 /* AFExtended.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFExtended.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CCA4D042754FEB100C29A74 /* AFExtendedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFExtendedApp.swift; sourceTree = "<group>"; };
@@ -71,10 +77,19 @@
 			isa = PBXGroup;
 			children = (
 				3C1714C72760C71800B13878 /* EnumZipTest.swift */,
-				3C1714D427624FA700B13878 /* EnumZipModels.swift */,
 				3C1714DC2762577B00B13878 /* CategoryRow.swift */,
+				3C6FBF5727675649008744E2 /* EnumViewModel.swift */,
+				3C1714D427624FA700B13878 /* EnumZipModels.swift */,
 			);
 			path = ZipAndEnumTests;
+			sourceTree = "<group>";
+		};
+		3C6FBF5D2768A95C008744E2 /* GridTest */ = {
+			isa = PBXGroup;
+			children = (
+				3C6FBF5B27679731008744E2 /* ListModifsTest.swift */,
+			);
+			path = GridTest;
 			sourceTree = "<group>";
 		};
 		3C9900192763871300FC68FC /* KahootTest */ = {
@@ -105,9 +120,11 @@
 			isa = PBXGroup;
 			children = (
 				3CCA4D042754FEB100C29A74 /* AFExtendedApp.swift */,
+				3C6FBF5527674DDA008744E2 /* SetCollectionTest.swift */,
 				3C1714CB2762495300B13878 /* Markdown */,
 				3C1714D027624C2500B13878 /* NavigationBackToRoot */,
 				3C1714D327624DD400B13878 /* ZipAndEnumTests */,
+				3C6FBF5D2768A95C008744E2 /* GridTest */,
 				3C9900192763871300FC68FC /* KahootTest */,
 				3CCA4D082754FEB200C29A74 /* Assets.xcassets */,
 				3CCA4D0A2754FEB200C29A74 /* Preview Content */,
@@ -194,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C1714C82760C71800B13878 /* EnumZipTest.swift in Sources */,
+				3C6FBF5C27679731008744E2 /* ListModifsTest.swift in Sources */,
 				3C99001B2763888E00FC68FC /* KahootQuestionTest.swift in Sources */,
 				3C1714C62760C6C100B13878 /* TextListRoot.swift in Sources */,
 				3C1714DD2762577B00B13878 /* CategoryRow.swift in Sources */,
@@ -203,6 +221,8 @@
 				3C1714CF276249B000B13878 /* MarkdownInfoRow.swift in Sources */,
 				3CCA4D052754FEB100C29A74 /* AFExtendedApp.swift in Sources */,
 				3C1714CD2762496D00B13878 /* MarkdownInfoModel.swift in Sources */,
+				3C6FBF5627674DDA008744E2 /* SetCollectionTest.swift in Sources */,
+				3C6FBF5827675649008744E2 /* EnumViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

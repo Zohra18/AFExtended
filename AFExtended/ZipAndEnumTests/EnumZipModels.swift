@@ -14,8 +14,23 @@ enum CategorySomething: String, CaseIterable {
     case classic = "Classic"
 }
 
-struct Category: Identifiable {
-    var id = UUID()
+class Category: Identifiable, Hashable {
+    
+    static func == (lhs: Category, rhs: Category) -> Bool {
+        return lhs.name == rhs.name
+    }
+    
+    func hash(into hasher: inout Hasher) {
+            hasher.combine(name)
+        }
+//
+    internal init(id: Int, name: String, chosenCategory: Bool) {
+        self.id = id
+        self.name = name
+        self.chosenCategory = chosenCategory
+    }
+    
+    var id: Int
     var name: String
     var chosenCategory: Bool
 }

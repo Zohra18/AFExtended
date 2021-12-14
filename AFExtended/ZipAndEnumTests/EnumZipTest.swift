@@ -16,11 +16,13 @@ struct EnumZipTest: View {
     @State private var addedCategory = false
     @State private var myCategory: Category?
     
+//    @Obser var mySet: Set<Category> = []
+    @StateObject var enumViewModel = EnumViewModel()
     @State private var allCategories = [
-        Category(name: "Rock", chosenCategory: false),
-        Category(name: "Metal", chosenCategory: false),
-        Category(name: "Rap", chosenCategory: false),
-        Category(name: "Classic", chosenCategory: false)
+        Category(id: 0, name: "Rock", chosenCategory: false),
+        Category(id: 1, name: "Metal", chosenCategory: false),
+        Category(id: 2, name: "Rap", chosenCategory: false),
+        Category(id: 3, name: "Classic", chosenCategory: false)
     ]
     
     var myDatas = ["1", "2", "3"]
@@ -55,9 +57,22 @@ struct EnumZipTest: View {
             //            }
             
             //BINDING+INDEX
-            ForEach(allCategories.indices) { index in
-                CategoryRow(category: $allCategories[index])
+            VStack {
+                ForEach(allCategories.indices) { index in
+                    CategoryRow(category: $allCategories[index], enumViewModel: enumViewModel)
+                }
+                
+                
+                ForEach(enumViewModel.setCategory, id: \.id) { addedItem in
+                    Text(addedItem.name)
+                }
+                Button(action: {
+                    print("view parente", enumViewModel.setCategory)
+                }, label: {
+                    Text("update check")
+                })
             }
+            
         }
     }
 }
