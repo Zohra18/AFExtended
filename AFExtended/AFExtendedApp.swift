@@ -11,7 +11,8 @@ import SwiftUI
 struct AFExtendedApp: App {
     var body: some Scene {
         WindowGroup {
-            ListModifsTest()
+            TextTest()
         }
     }
 }
+

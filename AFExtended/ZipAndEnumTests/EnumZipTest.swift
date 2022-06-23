@@ -15,7 +15,7 @@ import SwiftUI
 struct EnumZipTest: View {
     @State private var addedCategory = false
     @State private var myCategory: Category?
-    
+    @State private var selectedID: Int? = 0
 //    @Obser var mySet: Set<Category> = []
     @StateObject var enumViewModel = EnumViewModel()
     @State private var allCategories = [
@@ -58,9 +58,39 @@ struct EnumZipTest: View {
             
             //BINDING+INDEX
             VStack {
-                ForEach(allCategories.indices) { index in
-                    CategoryRow(category: $allCategories[index], enumViewModel: enumViewModel)
+                
+                
+                
+                ForEach(allCategories) { toto in
+                    HStack {
+                        Text(toto.name)
+                        Text(toto.id.description)
+                        
+                        Text("\(selectedID?.description ?? 99.description)")
+                        Text(toto.chosenCategory.description)
+                        Button(action: {
+//                            if var chosenID = selectedID {
+                            selectedID = toto.id
+                                if selectedID == toto.id {
+                                    toto.chosenCategory.toggle()
+                                    
+                                }
+//                            }
+                            
+//                            if let chosenID = selectedID {
+//                                toto.id = chosenID
+//                                toto.id == chosenID {
+                                    
+//                                }
+//                            }
+                        }, label: {
+                            Image(systemName:  toto.chosenCategory ? "bolt.fill" : "bolt")
+                        })
+                    }
                 }
+//                ForEach(allCategories.indices) { index in
+//                    CategoryRow(category: $allCategories[index], enumViewModel: enumViewModel)
+//                }
                 
                 
                 ForEach(enumViewModel.setCategory, id: \.id) { addedItem in

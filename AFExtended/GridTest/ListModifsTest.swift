@@ -20,9 +20,14 @@ struct ListModifsTest: View {
         NavigationView {
             LazyHGrid(rows: [GridItem(.fixed(200))]) {
                 //ma liste d'ojbets
+                
+                
                 ForEach(allCategories.indices, id: \.self) { index in
+                    
                     NavigationLink(destination: Color.orange) {
+                        
                         HStack {
+                            
                             Text(allCategories[index].name)
                             Button(action: {
                                 allCategories.remove(at: index)
@@ -34,6 +39,8 @@ struct ListModifsTest: View {
                         }
                     }
                 }
+                
+                
                 
             }
         }

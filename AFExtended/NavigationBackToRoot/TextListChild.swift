@@ -13,11 +13,13 @@ struct TextListChild: View {
     var body: some View {
         VStack {
             Text("\(number)")
+            
             Button(action: {
                 backToRoot.toggle()
             }, label: {
                Text("back to root")
             })
+            
         }
         
     }

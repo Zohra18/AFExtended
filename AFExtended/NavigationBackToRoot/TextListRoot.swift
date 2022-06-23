@@ -14,9 +14,19 @@ import SwiftUI
 struct TextListRoot: View {
     @State private var root = false
     @State private var globalInt: Int?
+    @State private var totoSelection = 0
     var body: some View {
         NavigationView {
             VStack {
+//                
+//                Picker("", selection: $totoSelection, content: {
+//                    Text("1").tag(0)
+//                    Text("2").tag(1)
+//                })
+//                .pickerStyle(SegmentedPickerStyle())
+//                
+                
+                
                 ForEach(0...5, id: \.self) { number in
                         Text("\(number)")
                             .onTapGesture {

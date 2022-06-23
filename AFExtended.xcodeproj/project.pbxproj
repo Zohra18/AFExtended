@@ -14,10 +14,20 @@
 		3C1714D227624C8300B13878 /* TextListChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1714D127624C8300B13878 /* TextListChild.swift */; };
 		3C1714D527624FA700B13878 /* EnumZipModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1714D427624FA700B13878 /* EnumZipModels.swift */; };
 		3C1714DD2762577B00B13878 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1714DC2762577B00B13878 /* CategoryRow.swift */; };
-		3C6FBF5627674DDA008744E2 /* SetCollectionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6FBF5527674DDA008744E2 /* SetCollectionTest.swift */; };
+		3C55E6F6285C89C400491C58 /* GlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C55E6F5285C89C400491C58 /* GlassView.swift */; };
 		3C6FBF5827675649008744E2 /* EnumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6FBF5727675649008744E2 /* EnumViewModel.swift */; };
 		3C6FBF5C27679731008744E2 /* ListModifsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6FBF5B27679731008744E2 /* ListModifsTest.swift */; };
+		3C6FBF5F2768DE2D008744E2 /* DatePickerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6FBF5E2768DE2D008744E2 /* DatePickerTest.swift */; };
+		3C8F729B283518530031B228 /* TextTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F729A283518530031B228 /* TextTest.swift */; };
 		3C99001B2763888E00FC68FC /* KahootQuestionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99001A2763888E00FC68FC /* KahootQuestionTest.swift */; };
+		3C9E8E122861B5DC0089F322 /* GlassBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E8E112861B5DC0089F322 /* GlassBackground.swift */; };
+		3C9E8E142861BFD60089F322 /* CorrectionBGColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E8E132861BFD60089F322 /* CorrectionBGColor.swift */; };
+		3C9E8E172861CA4C0089F322 /* GlassBubbleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E8E162861CA4C0089F322 /* GlassBubbleBackground.swift */; };
+		3C9E8E192861EDBC0089F322 /* ExtractView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E8E182861EDBC0089F322 /* ExtractView.swift */; };
+		3C9E8E1B2862F6CB0089F322 /* RecapSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E8E1A2862F6CB0089F322 /* RecapSwiftUI.swift */; };
+		3C9E8E1D2862FE7B0089F322 /* ExtractViewExemple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E8E1C2862FE7B0089F322 /* ExtractViewExemple.swift */; };
+		3C9E8E1F286317990089F322 /* CorrectionButtonRecap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E8E1E286317990089F322 /* CorrectionButtonRecap.swift */; };
+		3C9E8E21286335040089F322 /* ListDynamicExemple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E8E20286335040089F322 /* ListDynamicExemple.swift */; };
 		3CCA4D052754FEB100C29A74 /* AFExtendedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA4D042754FEB100C29A74 /* AFExtendedApp.swift */; };
 		3CCA4D072754FEB100C29A74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA4D062754FEB100C29A74 /* ContentView.swift */; };
 		3CCA4D092754FEB200C29A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CCA4D082754FEB200C29A74 /* Assets.xcassets */; };
@@ -32,10 +42,20 @@
 		3C1714D127624C8300B13878 /* TextListChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextListChild.swift; sourceTree = "<group>"; };
 		3C1714D427624FA700B13878 /* EnumZipModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumZipModels.swift; sourceTree = "<group>"; };
 		3C1714DC2762577B00B13878 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
-		3C6FBF5527674DDA008744E2 /* SetCollectionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCollectionTest.swift; sourceTree = "<group>"; };
+		3C55E6F5285C89C400491C58 /* GlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassView.swift; sourceTree = "<group>"; };
 		3C6FBF5727675649008744E2 /* EnumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumViewModel.swift; sourceTree = "<group>"; };
 		3C6FBF5B27679731008744E2 /* ListModifsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModifsTest.swift; sourceTree = "<group>"; };
+		3C6FBF5E2768DE2D008744E2 /* DatePickerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerTest.swift; sourceTree = "<group>"; };
+		3C8F729A283518530031B228 /* TextTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTest.swift; sourceTree = "<group>"; };
 		3C99001A2763888E00FC68FC /* KahootQuestionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KahootQuestionTest.swift; sourceTree = "<group>"; };
+		3C9E8E112861B5DC0089F322 /* GlassBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackground.swift; sourceTree = "<group>"; };
+		3C9E8E132861BFD60089F322 /* CorrectionBGColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectionBGColor.swift; sourceTree = "<group>"; };
+		3C9E8E162861CA4C0089F322 /* GlassBubbleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBubbleBackground.swift; sourceTree = "<group>"; };
+		3C9E8E182861EDBC0089F322 /* ExtractView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractView.swift; sourceTree = "<group>"; };
+		3C9E8E1A2862F6CB0089F322 /* RecapSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecapSwiftUI.swift; sourceTree = "<group>"; };
+		3C9E8E1C2862FE7B0089F322 /* ExtractViewExemple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractViewExemple.swift; sourceTree = "<group>"; };
+		3C9E8E1E286317990089F322 /* CorrectionButtonRecap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectionButtonRecap.swift; sourceTree = "<group>"; };
+		3C9E8E20286335040089F322 /* ListDynamicExemple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDynamicExemple.swift; sourceTree = "<group>"; };
 		3CCA4D012754FEB100C29A74 /* AFExtended.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFExtended.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CCA4D042754FEB100C29A74 /* AFExtendedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFExtendedApp.swift; sourceTree = "<group>"; };
 		3CCA4D062754FEB100C29A74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				3C1714C52760C6C100B13878 /* TextListRoot.swift */,
+				3C8F729A283518530031B228 /* TextTest.swift */,
 				3C1714D127624C8300B13878 /* TextListChild.swift */,
 			);
 			path = NavigationBackToRoot;
@@ -88,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				3C6FBF5B27679731008744E2 /* ListModifsTest.swift */,
+				3C6FBF5E2768DE2D008744E2 /* DatePickerTest.swift */,
 			);
 			path = GridTest;
 			sourceTree = "<group>";
@@ -98,6 +120,29 @@
 				3C99001A2763888E00FC68FC /* KahootQuestionTest.swift */,
 			);
 			path = KahootTest;
+			sourceTree = "<group>";
+		};
+		3C9E8E102861B4220089F322 /* Glassmorphism */ = {
+			isa = PBXGroup;
+			children = (
+				3C55E6F5285C89C400491C58 /* GlassView.swift */,
+				3C9E8E1A2862F6CB0089F322 /* RecapSwiftUI.swift */,
+				3C9E8E1E286317990089F322 /* CorrectionButtonRecap.swift */,
+				3C9E8E20286335040089F322 /* ListDynamicExemple.swift */,
+				3C9E8E1C2862FE7B0089F322 /* ExtractViewExemple.swift */,
+				3C9E8E182861EDBC0089F322 /* ExtractView.swift */,
+				3C9E8E112861B5DC0089F322 /* GlassBackground.swift */,
+				3C9E8E162861CA4C0089F322 /* GlassBubbleBackground.swift */,
+			);
+			path = Glassmorphism;
+			sourceTree = "<group>";
+		};
+		3C9E8E152861C67B0089F322 /* CorrectionHereAndThere */ = {
+			isa = PBXGroup;
+			children = (
+				3C9E8E132861BFD60089F322 /* CorrectionBGColor.swift */,
+			);
+			path = CorrectionHereAndThere;
 			sourceTree = "<group>";
 		};
 		3CCA4CF82754FEB000C29A74 = {
@@ -120,11 +165,12 @@
 			isa = PBXGroup;
 			children = (
 				3CCA4D042754FEB100C29A74 /* AFExtendedApp.swift */,
-				3C6FBF5527674DDA008744E2 /* SetCollectionTest.swift */,
+				3C9E8E102861B4220089F322 /* Glassmorphism */,
 				3C1714CB2762495300B13878 /* Markdown */,
 				3C1714D027624C2500B13878 /* NavigationBackToRoot */,
 				3C1714D327624DD400B13878 /* ZipAndEnumTests */,
 				3C6FBF5D2768A95C008744E2 /* GridTest */,
+				3C9E8E152861C67B0089F322 /* CorrectionHereAndThere */,
 				3C9900192763871300FC68FC /* KahootTest */,
 				3CCA4D082754FEB200C29A74 /* Assets.xcassets */,
 				3CCA4D0A2754FEB200C29A74 /* Preview Content */,
@@ -211,17 +257,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C1714C82760C71800B13878 /* EnumZipTest.swift in Sources */,
+				3C9E8E1D2862FE7B0089F322 /* ExtractViewExemple.swift in Sources */,
+				3C9E8E192861EDBC0089F322 /* ExtractView.swift in Sources */,
 				3C6FBF5C27679731008744E2 /* ListModifsTest.swift in Sources */,
 				3C99001B2763888E00FC68FC /* KahootQuestionTest.swift in Sources */,
+				3C9E8E142861BFD60089F322 /* CorrectionBGColor.swift in Sources */,
+				3C9E8E172861CA4C0089F322 /* GlassBubbleBackground.swift in Sources */,
 				3C1714C62760C6C100B13878 /* TextListRoot.swift in Sources */,
+				3C8F729B283518530031B228 /* TextTest.swift in Sources */,
+				3C9E8E1F286317990089F322 /* CorrectionButtonRecap.swift in Sources */,
 				3C1714DD2762577B00B13878 /* CategoryRow.swift in Sources */,
 				3C1714D527624FA700B13878 /* EnumZipModels.swift in Sources */,
+				3C9E8E21286335040089F322 /* ListDynamicExemple.swift in Sources */,
 				3CCA4D072754FEB100C29A74 /* ContentView.swift in Sources */,
+				3C9E8E1B2862F6CB0089F322 /* RecapSwiftUI.swift in Sources */,
 				3C1714D227624C8300B13878 /* TextListChild.swift in Sources */,
+				3C6FBF5F2768DE2D008744E2 /* DatePickerTest.swift in Sources */,
+				3C9E8E122861B5DC0089F322 /* GlassBackground.swift in Sources */,
 				3C1714CF276249B000B13878 /* MarkdownInfoRow.swift in Sources */,
 				3CCA4D052754FEB100C29A74 /* AFExtendedApp.swift in Sources */,
+				3C55E6F6285C89C400491C58 /* GlassView.swift in Sources */,
 				3C1714CD2762496D00B13878 /* MarkdownInfoModel.swift in Sources */,
-				3C6FBF5627674DDA008744E2 /* SetCollectionTest.swift in Sources */,
 				3C6FBF5827675649008744E2 /* EnumViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
